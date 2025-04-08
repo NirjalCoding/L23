@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Join and Pop</h2>
+    <p id="demo"></p>
+        <p id="first"></p>
+        <p id="second"></p>
+    <script>
+        var fruits = ["Banana","Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits.join('*');
+        fruits.pop()
+        document.getElementById("first").innerHTML = fruits;
+        fruits.pop()
+        document.getElementById("second").innerHTML = fruits;
+    </script>
+</body>
+</html>
